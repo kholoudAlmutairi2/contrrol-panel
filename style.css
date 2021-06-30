@@ -1,0 +1,42 @@
+ body{
+    background: rgb(168, 180, 167);
+    color: #fff;
+    
+}
+
+
+.btn{
+
+
+color: #fff;
+text-decoration: none;
+border: 2px solid #006e58;
+padding: 20px;
+text-transform: uppercase ;
+overflow: hidden;
+transition: all 0.5s;
+background: #006e58;
+border-radius: 50px;
+margin: 10px;
+
+}
+
+.btn:hover{
+    background: #008168;
+}
+.btn.active{
+    background:#006e58;
+}
+.btn__text,
+.btn__icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 66px;
+    height: 30px;
+}
+.btn3{
+
+    margin: 33px;
+
+
+}
